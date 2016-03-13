@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F195239D1AED619F00AA477B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F195239C1AED619F00AA477B /* main.cpp */; };
+		F19523A51AED62A300AA477B /* IsingModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19523A41AED62A300AA477B /* IsingModel.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F19523991AED619F00AA477B /* Ising Model Command Line */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ising Model Command Line"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F195239C1AED619F00AA477B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F19523A31AED624B00AA477B /* IsingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsingModel.h; sourceTree = "<group>"; };
+		F19523A41AED62A300AA477B /* IsingModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsingModel.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F195239C1AED619F00AA477B /* main.cpp */,
+				F19523A41AED62A300AA477B /* IsingModel.cpp */,
+				F19523A31AED624B00AA477B /* IsingModel.h */,
 			);
 			path = "Ising Model Command Line";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19523A51AED62A300AA477B /* IsingModel.cpp in Sources */,
 				F195239D1AED619F00AA477B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
